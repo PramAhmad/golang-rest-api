@@ -1,0 +1,20 @@
+version: '3'
+services:
+  web:
+    container_name: golang-database
+    build: ./
+    ports:
+      - "8080:8080"
+    command: /server
+    volumes:
+      - /home/nehphren/golang/src/golang-database
+
+  
+ 
+
+
+
+
+
+
+ 
